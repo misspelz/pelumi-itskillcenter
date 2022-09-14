@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+#container{
+background-color: rgb(240, 242, 245);
+}
+#main{
+width: 80%;
+padding: 150px;
+margin: 0 auto;
+}
+#left{
+width: 45%;
+display: inline-block;
+vertical-align: top;
+padding-top: 30px;
+}
+#right{
+width: 35%;
+display: inline-block;
+text-align: center;
+margin-left: 100px;
+padding-right: 20px;
+}
+#left p{
+font-size: 21px;
+padding-left: 28px;
+padding-top: 0;
+margin-top: 0;
+margin-left: 70px;
+}
+input{
+width: 85%;
+border-radius: 6px;
+margin-bottom: 10px;
+margin-top: 10px;
+padding: 20px 20px;
+border: 1px solid rgb(226, 222, 222);
+border-color: rgb(212, 216, 219);
+font-size: 18px;
+}
+#login{
+width: 95%;
+border-radius: 6px;
+margin-bottom: 10px;
+margin-top: 10px;
+padding: 20px 20px;
+border: 0;
+background-color: #166fe5;
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
+#account{
+width: 65%;
+border-radius: 6px;
+margin-bottom: 20px;
+margin-top: 20px;
+padding: 20px 20px;
+border: 0;
+background-color: #42b72a;
+color: white;
+font-size: 18px;
+font-weight: bold;
+}
+#card{
+background-color: white;
+padding: 10px;
+border-radius: 6px;
+text-align: center;
+margin-bottom: 30px;
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+#card p{
+text-align: center;
+margin-top: 4px;
+}
+#card p a{
+color: #166fe5;
+text-decoration: none;
+}
+#footer{
+background-color: white;
+}
+#footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 20px 0;
+    width: auto;
+    margin: 0px 240px;
+    line-height: 20px;
+}
+#list1{
+    border-bottom: 1px solid #dddfe2;
+    padding-bottom: 20px;
+
+}
+#list1 button{
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    outline: none;
+    color: #4b4f56;
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+#footer ul li{
+    padding-right: 15px;
+    font-size: 12px;
+}
+#footer ul a{
+    text-decoration: none;
+    color: #4b4f56;
+}
+#footer ul a:hover{
+    text-decoration: underline;
+}
+#footer small{
+    font-size: 11px;
+    color: #4b4f56;
+    margin: 0px 240px;
+}
