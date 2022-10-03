@@ -136,6 +136,6 @@ let array1 = [1, 0, 2, 3, 4]
 let array2 = [3, 5, 6, 7, 8, 13];
 
 function sum(array1, array2){
-    let result = [];
+    
 
 }
