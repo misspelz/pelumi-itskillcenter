@@ -86,6 +86,9 @@ li{
     color: #202124;
     font-family: arial,sans-serif;
 }
+.btn:hover{
+    transition: all;
+}
 #textarea{
     margin-top: 17px;
     font-family: arial,sans-serif;
